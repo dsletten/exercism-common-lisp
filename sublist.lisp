@@ -24,13 +24,6 @@
 ;;;;   Notes:
 ;;;;
 ;;;;
-(load "/home/slytobias/lisp/packages/lang.lisp")
-(load "/home/slytobias/lisp/packages/test.lisp")
-
-;; (defpackage :sublist (:use :common-lisp :lang :test))
-
-;; (in-package :sublist)
-
 (defpackage :sublist
   (:use :cl)
   (:export :sublist))

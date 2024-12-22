@@ -24,13 +24,6 @@
 ;;;;   Notes:
 ;;;;
 ;;;;
-(load "/home/slytobias/lisp/packages/lang.lisp")
-(load "/home/slytobias/lisp/packages/test.lisp")
-
-(defpackage :difference-of-squares (:use :common-lisp :lang :test))
-
-(in-package :difference-of-squares)
-
 (defpackage :difference-of-squares
   (:use :cl)
   (:export :sum-of-squares

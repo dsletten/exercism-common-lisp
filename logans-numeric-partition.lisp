@@ -24,13 +24,6 @@
 ;;;;   Notes:
 ;;;;
 ;;;;
-(load "/home/slytobias/lisp/packages/lang.lisp")
-(load "/home/slytobias/lisp/packages/test.lisp")
-
-(defpackage :logans-numeric-partition (:use :common-lisp :lang :test))
-
-(in-package :logans-numeric-partition)
-
 (defpackage :logans-numeric-partition
   (:use :cl)
   (:export :categorize-number :partition-numbers))

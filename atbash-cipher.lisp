@@ -24,10 +24,7 @@
 ;;;;   Notes:
 ;;;;
 ;;;;
-(load "/home/slytobias/lisp/packages/lang.lisp")
-(load "/home/slytobias/lisp/packages/test.lisp")
-
-(defpackage :atbash-cipher (:use :common-lisp :lang :test))
+(defpackage :atbash-cipher (:use :common-lisp))
 
 (in-package :atbash-cipher)
 

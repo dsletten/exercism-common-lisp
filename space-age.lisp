@@ -24,10 +24,7 @@
 ;;;;   Notes:
 ;;;;
 ;;;;
-(load "/home/slytobias/lisp/packages/lang.lisp")
-(load "/home/slytobias/lisp/packages/test.lisp")
-
-(defpackage :space-age (:use :common-lisp :lang :test))
+(defpackage :space-age (:use :common-lisp))
 
 (in-package :space-age)
 

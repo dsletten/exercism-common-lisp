@@ -24,10 +24,9 @@
 ;;;;   Notes:
 ;;;;
 ;;;;
-(load "/home/slytobias/lisp/packages/lang.lisp")
 (load "/home/slytobias/lisp/packages/test.lisp")
 
-(defpackage :armstrong (:use :common-lisp :lang :test))
+(defpackage :armstrong (:use :common-lisp :test))
 
 (in-package :armstrong)
 

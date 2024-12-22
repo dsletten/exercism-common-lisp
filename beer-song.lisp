@@ -24,10 +24,7 @@
 ;;;;   Notes:
 ;;;;
 ;;;;
-(load "/home/slytobias/lisp/packages/lang.lisp")
-(load "/home/slytobias/lisp/packages/test.lisp")
-
-(defpackage :beer-song (:use :common-lisp :lang :test))
+(defpackage :beer-song (:use :common-lisp))
 
 (in-package :beer-song)
 

@@ -27,10 +27,7 @@
 ;;;;   33550336 = 4096 * 8191 = (* (expt 2 12) (1- (expt 2 13)))
 ;;;;
 ;;;;
-(load "/home/slytobias/lisp/packages/lang.lisp")
-(load "/home/slytobias/lisp/packages/test.lisp")
-
-(defpackage :perfect-numbers (:use :common-lisp :lang :test))
+(defpackage :perfect-numbers (:use :common-lisp))
 
 (in-package :perfect-numbers)
 

@@ -24,10 +24,7 @@
 ;;;;   Notes:
 ;;;;
 ;;;;
-(load "/home/slytobias/lisp/packages/lang.lisp")
-(load "/home/slytobias/lisp/packages/test.lisp")
-
-(defpackage :food-chain (:use :common-lisp :lang :test))
+(defpackage :food-chain (:use :common-lisp))
 
 (in-package :food-chain)
 
@@ -125,7 +122,7 @@
           (2 (spider1 count))
           (1 (fly1)))) )))
              
-(defpackage :food-chain-clos (:use :common-lisp :lang :test))
+(defpackage :food-chain-clos (:use :common-lisp))
 
 (in-package :food-chain-clos)
 
@@ -192,7 +189,7 @@
 ;;;
 ;;;    Second CLOS take inspired by mentoring thelmalu
 ;;;    
-(defpackage :food-chain-clos2 (:use :common-lisp :lang :test))
+(defpackage :food-chain-clos2 (:use :common-lisp))
 
 (in-package :food-chain-clos2)
 

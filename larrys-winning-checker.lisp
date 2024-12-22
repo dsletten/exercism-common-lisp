@@ -24,13 +24,6 @@
 ;;;;   Notes:
 ;;;;
 ;;;;
-(load "/home/slytobias/lisp/packages/lang.lisp")
-(load "/home/slytobias/lisp/packages/test.lisp")
-
-(defpackage :larrys-winning-checker (:use :common-lisp :lang :test))
-
-(in-package :larrys-winning-checker)
-
 (defpackage :larrys-winning-checker
   (:use :cl)
   (:export

@@ -24,10 +24,7 @@
 ;;;;   Notes:
 ;;;;
 ;;;;
-(load "/home/slytobias/lisp/packages/lang.lisp")
-(load "/home/slytobias/lisp/packages/test.lisp")
-
-(defpackage :log-levels (:use :common-lisp :lang :test))
+(defpackage :log-levels (:use :common-lisp))
 
 (in-package :log-levels)
 
@@ -125,7 +122,7 @@
               (log-function (third entry)))
           (funcall log-function msg)))) )
 
-(defpackage :log-levels-clos (:use :common-lisp :lang :test))
+(defpackage :log-levels-clos (:use :common-lisp))
 
 (in-package :log-levels-clos)
 

@@ -24,16 +24,9 @@
 ;;;;   Notes:
 ;;;;
 ;;;;
-(load "/home/slytobias/lisp/packages/lang.lisp")
-(load "/home/slytobias/lisp/packages/test.lisp")
-
-(defpackage :raindrops (:use :common-lisp :lang :test))
-
-;; (in-package :raindrops)
-
-;; (defpackage :raindrops
-;;   (:use :cl)
-;;   (:export :convert))
+(defpackage :raindrops
+  (:use :cl)
+  (:export :convert))
 
 (in-package :raindrops)
 

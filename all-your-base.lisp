@@ -26,10 +26,9 @@
 ;;;;
 ;;;;  见 ~/lisp/programs/horners.lisp
 ;;;;
-(load "/home/slytobias/lisp/packages/lang.lisp")
 (load "/home/slytobias/lisp/packages/test.lisp")
 
-(defpackage :all-your-base (:use :common-lisp :lang :test))
+(defpackage :all-your-base (:use :common-lisp :test))
 
 (in-package :all-your-base)
 
@@ -163,7 +162,7 @@
    (not (rebase '(1) 2 -7))
    (not (rebase '(1) -2 -7))))
 
-(defpackage :all-your-base-oo (:use :common-lisp :lang :test))
+(defpackage :all-your-base-oo (:use :common-lisp :test))
 
 (in-package :all-your-base-oo)
 

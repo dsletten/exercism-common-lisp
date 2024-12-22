@@ -24,12 +24,11 @@
 ;;;;   Notes:
 ;;;;
 ;;;;
-(load "/home/slytobias/lisp/packages/lang.lisp")
 (load "/home/slytobias/lisp/packages/test.lisp")
 
 (load "/home/slytobias/lisp/books/Concise/concise.lisp")
 
-(defpackage :roman-numerals (:use :common-lisp :lang :test))
+(defpackage :roman-numerals (:use :common-lisp :test))
 
 (in-package :roman-numerals)
 
@@ -275,7 +274,7 @@
 ;;;;
 ;;;;    http://www.novaroma.org/via_romana/numbers.html
 ;;;;    
-(defpackage :roman-numerals-crazy-javascript (:use :common-lisp :lang :test))
+(defpackage :roman-numerals-crazy-javascript (:use :common-lisp :test))
 
 (in-package :roman-numerals-crazy-javascript)
 
@@ -327,7 +326,7 @@
 ;;;    Inspired by Shane Laymance's JavaScript solution
 ;;;    github.com/slaymance/exercism/tree/main/javascript
 ;;;    
-(defpackage :roman-numerals-slaymance (:use :common-lisp :lang :test))
+(defpackage :roman-numerals-slaymance (:use :common-lisp :test))
 
 (in-package :roman-numerals-slaymance)
 
